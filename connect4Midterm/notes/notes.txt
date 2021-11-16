@@ -1,0 +1,4 @@
+Tasks:
+    1. finish check::DiagonalCheck(int x)
+    2. Implement AI (Alpha Beta Algorithm)
+    3. Fix out of range inputs (maybe?) 

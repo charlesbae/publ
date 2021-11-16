@@ -69,7 +69,7 @@ namespace game{
                 }
             }
             while(check::columnAvailable(x) == 0);
-            play2(x); 
+            play2(x);   
             if(check::verticalCheck(x) != 0 || check::horizontalCheck(x) != 0){
                 g = true;
                 break; 
@@ -78,10 +78,10 @@ namespace game{
 
         if(g == true){
             if(check::verticalCheck(x) != 0){
-                std::cout << "Player " << check::verticalCheck(x) << " won!";
+                std::cout << "Player " << gameLang(check::verticalCheck(x)) << " won!";
             }
             else if(check::horizontalCheck(x) != 0){
-                std::cout << "Player " << check::horizontalCheck(x) << " won!";
+                std::cout << "Player " << gameLang(check::horizontalCheck(x)) << " won!";
                 
             }
         }
